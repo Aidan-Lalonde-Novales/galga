@@ -69,6 +69,6 @@ game.onUpdateInterval(500, function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, SpriteKind.Enemy)
-    bogey.setVelocity(-150, 0)
+    bogey.setVelocity(-100, 0)
     bogey.setPosition(180, randint(0, 120))
 })
